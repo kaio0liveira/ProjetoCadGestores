@@ -62,7 +62,7 @@ public class GestorController {
 	   
 	@RequestMapping("/deletar/{id}")
 	public String deletar(@PathVariable(name = "id") Long id) {
-		service.delete(id);
+		gestorRepository.deleteById(id);
 		
 		return "redirect:/gestor";
 	}
