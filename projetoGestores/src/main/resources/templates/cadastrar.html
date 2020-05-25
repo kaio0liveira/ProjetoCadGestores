@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=”pt-br” xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastrar</title>
+<style>
+
+</style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+		<nav class="navbar navbar-light bg-light"  >
+  			<h2>CADASTRAR GESTOR</h2><a href ="/gestor"><button type="submit"  class="btn btn-primary btn-lg">Inicio</button></a>
+		</nav>
+	</div>	
+<form  method="post">
+	<div class = "container">
+	  <div class="form-group">
+		    <label>Nome</label>
+		    <input type="text" class="form-control" placeholder="Nome" name="nome">
+		    <label>Matrícula</label>
+		    <input type="text" class="form-control" placeholder="Matricula" name="matricula">
+		    <label>Data Nascimento</label>
+		    <input type="date" class="form-control"  placeholder="Data Nascimento" name="dataNascimento">
+		    <label>Setor</label>x	
+		    <select class="form-control" name="setor">
+		      <option>Admistrativo</option>
+		      <option>Tecnologia</option>
+		      <option>Recursos humanos</option>
+		      <option>Help desk</option>
+		     </select>
+		     <div >
+		     <button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
+		   	</div>
+	  </div>
+  </div>
+</form>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
