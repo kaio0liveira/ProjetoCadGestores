@@ -13,12 +13,6 @@ public class GestorService {
 	@Autowired
 	private GestorRepository gr;
 	
-	
-	
-	 public void delete(Long id) {
-	 	gr.deleteById(id);
-	}
-
 	public Gestor buscarId(Long id) {
 		return gr.findById(id).get();
 	}
