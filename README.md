@@ -2,8 +2,8 @@
 
 Tecnologias e ferramentas utilizadas
 
-Thymeleaf
-Spring Boot
+1. Thymeleaf
+2. Spring Boot
 Spring Data
 Maven
 MySQL
