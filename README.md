@@ -10,4 +10,6 @@ Tecnologias e ferramentas utilizadas
 * Bootstrap
 * Thymeleaf 
 
+Ao baixar o projeto, criar uma base de dados com o nome gestores.
+
 
